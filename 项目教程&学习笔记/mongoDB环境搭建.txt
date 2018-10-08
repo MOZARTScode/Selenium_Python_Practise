@@ -1,0 +1,32 @@
+mongoDB数据库安装在阿里云服务器上
+
+查看所有用户：
+db.system.users.find().pretty()
+
+用户信息：
+1、在admin数据库下一个用户
+user: Ethan
+pwd:lzy1008good
+
+2、在crawlPractise数据库下一个用户
+user:crawler
+pwd:crawler
+	
+主要参考文章：
+https://www.cnblogs.com/pfnie/articles/6759105.html
+这里面的整个过程写得蛮好的！
+
+重要内容：
+启动数据库：./mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf
+退出mongo终端使用：ctrl+c
+重要操作：
+1、认证
+use admin
+db.auth
+2、数据库操作
+use mydb
+创建集合coll1(也可以不创建，在插入数据时会自动生成)： 
+db.createCollection('coll1')
+
+mongodb基本操作：
+https://blog.csdn.net/believe2017slwx/article/details/80569014

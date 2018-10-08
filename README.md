@@ -12,3 +12,6 @@ I will have learned the main content before the National day over!Please obey th
 
 10.7
 今天爬取了今日头条的新闻，主要是熟悉爬取ajax获取的数据
+
+10.8
+今天在服务器上安装了mongoDB服务器，配置了基本的环境，同时试图在python中进行连接，但出现了一些问题
