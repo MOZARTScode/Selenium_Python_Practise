@@ -18,6 +18,8 @@ https://www.cnblogs.com/pfnie/articles/6759105.html
 
 重要内容：
 启动数据库：./mongod --config /usr/local/mongoDB/mongodbserver/etc/mongodb.conf
+关闭数据库：mongod --shutdown --dbpath data/
+重启动mongo服务：service mongod restart
 退出mongo终端使用：ctrl+c
 重要操作：
 1、认证
@@ -30,3 +32,16 @@ db.createCollection('coll1')
 
 mongodb基本操作：
 https://blog.csdn.net/believe2017slwx/article/details/80569014
+
+mongodb远程连接的条件：
+1、关闭防火墙：ufw disable
+2、mongodb的配置文件中bind_IP为127.0.0.1，这只允许本地连接，可以改为0.0.0.0允许远程连接
+
+阿里云服务器远程连接的坑：
+1、阿里云安全保护：必须在防火墙中开启相应的TCP端口范围
+2、服务器要关闭防火墙
+3、mongodb的配置文件中bind_IP要修改
+
+几个注意点：
+1、mongoDB关闭认证机制，否则比较复杂
+2、yield之后不能在存储json数据

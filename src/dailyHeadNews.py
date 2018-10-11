@@ -5,9 +5,12 @@ import json
 
 ######连接mongodb##################
 import pymongo
-client = pymongo.MongoClient(host="39.108.231.106", port=27017)
+uri =  'mongodb://' + 'crawler' + ':' + 'crawler' + '@' + '39.108.231.106' + ':' + '27017' +'/'+ 'crawlPractise'
+client = pymongo.MongoClient(uri)
 db = client.crawlPractise
 collection = db.headlines
+# db.authenticate('crawler', 'crawler')
+
 
 ###########################
 def get_focus_news():
@@ -46,9 +49,10 @@ def parse_focus_news(focu_news_json):
             focus_news['image_url'] = 'https' + item.get('image_url')
             focus_news_list.append(focus_news)
             yield focus_news
-            # yield的作用：？？？  
-        with open('focus_news.json', 'w', encoding='utf-8') as file:
-            file.write(json.dumps(focus_news_list, indent=2, ensure_ascii=False))
+            
+        # yield之后，生成不了json文件
+        # with open('focus_news.json', 'w', encoding='utf-8') as file:
+        #     file.write(json.dumps(focus_news_list, indent=2, ensure_ascii=False))
 
 def save_to_mongo(result):
     if collection.insert(result):
@@ -63,6 +67,5 @@ if __name__ == '__main__':
     for result in results:
         print(result)
         save_to_mongo(result)
-
 
 ###########################
