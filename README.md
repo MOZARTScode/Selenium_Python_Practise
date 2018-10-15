@@ -15,3 +15,6 @@ I will have learned the main content before the National day over!Please obey th
 
 10.8
 今天在服务器上安装了mongoDB服务器，配置了基本的环境，同时试图在python中进行连接，但出现了一些问题
+
+10.9
+插入服务器mongoDB没问题了，主要修改了连接以及认证上的配置

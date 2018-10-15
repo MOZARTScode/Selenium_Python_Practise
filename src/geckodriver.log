@@ -1,0 +1,141 @@
+1539521029218	geckodriver	INFO	geckodriver 0.21.0
+1539521029234	geckodriver	INFO	Listening on 127.0.0.1:64698
+1539521032358	mozrunner::runner	INFO	Running command: "D:\\非专业软件\\1\\firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\廖智勇\\AppData\\Local\\Temp\\rust_mozprofile.ECarHuf7nTsb"
+1539521036645	Marionette	INFO	Listening on port 64707
+1539521036824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539521036860	Marionette	DEBUG	[6442450945] Frame script loaded
+1539521036861	Marionette	DEBUG	[6442450945] Frame script registered
+[Child 12592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4976, Chrome_ChildThread] WARNING: pipe err[Parent 15612, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539521052124	Marionette	INFO	Stopped listening on port 64707
+[GPU 15296, Chrome_ChildThread] WARNING: pipe error: 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539523799856	geckodriver	INFO	geckodriver 0.21.0
+1539523799872	geckodriver	INFO	Listening on 127.0.0.1:65309
+1539523802949	mozrunner::runner	INFO	Running command: "D:\\非专业软件\\1\\firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\廖智勇\\AppData\\Local\\Temp\\rust_mozprofile.AtPTaw7xeSJP"
+1539523806916	Marionette	INFO	Listening on port 65321
+1539523807388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539523807427	Marionette	DEBUG	[6442450945] Frame script loaded
+1539523807427	Marionette	DEBUG	[6442450945] Frame script registered
+1539523807445	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539523808075	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539523824995	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450955
+1539523859270	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+1539523864738	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539523872939	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539523872942	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539524074658	Marionette	DEBUG	[2147483652] Frame script loaded
+1539524074683	Marionette	DEBUG	[2147483652] Frame script registered
+1539524074684	Marionette	DEBUG	[6442450962] Frame script loaded
+1539524074687	Marionette	DEBUG	[6442450962] Frame script registered
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 6656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539524134536	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539524134538	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1539524135502	Marionette	INFO	Stopped listening on port 65321
+[GPU 1484, Chrome_ChildThread] WARNING: pipe error: 109: file
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539524363002	geckodriver	INFO	geckodriver 0.21.0
+1539524363002	geckodriver	INFO	Listening on 127.0.0.1:49205
+1539524366111	mozrunner::runner	INFO	Running command: "D:\\非专业软件\\1\\firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\廖智勇\\AppData\\Local\\Temp\\rust_mozprofile.TvhmvPyqsC94"
+1539524370669	Marionette	INFO	Listening on port 49215
+1539524371191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539524371242	Marionette	DEBUG	[6442450945] Frame script loaded
+1539524371243	Marionette	DEBUG	[6442450945] Frame script registered
+1539524371276	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539524371726	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539524373436	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+1539524381482	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539524386541	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539524397457	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+[Parent 9348, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9348, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 10924, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10924, Chrome_ChildThread] WARNING: pipe error: 109: file z1539524591089	Marionette	INFO	Stopped listening on port 49215
+[GPU 9564, Chrome_ChildThread] WARNING: 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539526238617	geckodriver	INFO	geckodriver 0.21.0
+1539526238632	geckodriver	INFO	Listening on 127.0.0.1:49609
+1539526241632	mozrunner::runner	INFO	Running command: "D:\\非专业软件\\1\\firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\廖智勇\\AppData\\Local\\Temp\\rust_mozprofile.isVDfcsUxpag"
+1539526245694	Marionette	INFO	Listening on port 49618
+1539526246056	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539526246113	Marionette	DEBUG	[6442450945] Frame script loaded
+1539526246113	Marionette	DEBUG	[6442450945] Frame script registered
+1539526246127	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539526246697	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://webresource.c-ctrip.com/ResVacationOnline/R1/index-9e234d.js, line 1: ReferenceError: webpackJsonp is not defined
+1539526247492	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+1539526250657	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450957
+1539526253787	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+[Parent 18096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2864, Chrome_ChildThread] WARNING: pipe err
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+or: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2864, Chrome_ChildThread] WARNING: pipe error: 11539526356516	Marionette	INFO	Stopped listening on port 49618
+[GPU 18488, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539526497727	geckodriver	INFO	geckodriver 0.21.0
+1539526497727	geckodriver	INFO	Listening on 127.0.0.1:49833
+1539526500836	mozrunner::runner	INFO	Running command: "D:\\非专业软件\\1\\firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\廖智勇\\AppData\\Local\\Temp\\rust_mozprofile.M98UHwN42uBA"
+1539526504979	Marionette	INFO	Listening on port 49843
+1539526505244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539526505285	Marionette	DEBUG	[6442450945] Frame script loaded
+1539526505286	Marionette	DEBUG	[6442450945] Frame script registered
+1539526505315	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539526505823	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://webresource.c-ctrip.com/ResVacationOnline/R1/index-9e234d.js, line 1: ReferenceError: webpackJsonp is not defined
+1539526506838	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+1539526515516	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539526518035	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+1539526538346	Marionette	INFO	Stopped listening on port 49843
+[Child 13272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539700573948	geckodriver	INFO	geckodriver 0.21.0
+1539700573964	geckodriver	INFO	Listening on 127.0.0.1:52621
+1539700576948	mozrunner::runner	INFO	Running command: "D:\\非专业软件\\1\\firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\廖智勇\\AppData\\Local\\Temp\\rust_mozprofile.4i0YUttROsrn"
+1539700581340	Marionette	INFO	Listening on port 52631
+1539700581374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539700581422	Marionette	DEBUG	[6442450945] Frame script loaded
+1539700581426	Marionette	DEBUG	[6442450945] Frame script registered
+1539700581803	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539700582702	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539700590846	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+1539700591846	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://vacations.ctrip.com/tour/detail/p17699935s1.html?kwd=%e4%b8%89%e4%ba%9a
+1539700594172	Marionette	INFO	Stopped listening on port 52631
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: jar:file:///D:/%E9%9D%9E%E4%B8%93%E4%B8%9A%E8%BD%AF%E4%BB%B6/1/firefox/omni.ja!/components/PeerConnection.js, line 1811: TypeError: this._dompc._pc is undefined
+[Child 16544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 1488, Chrome_ChildThread] WARNING: pi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
